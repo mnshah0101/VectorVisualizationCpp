@@ -10,6 +10,16 @@ This project provides a simple OpenGL application to visualize vectors and perfo
 - **Camera Control**: Pan and zoom using sliders provided in the ImGui interface.
 - **Interactive GUI**: Adjust vector values, camera zoom, and pan angles via an interactive ImGui window.
 
+### Dot Product Visualization:
+![Dot Product](./DotProduct.png)
+
+The image above shows the result of the dot product calculation between two vectors. The scalar result is displayed and can be manipulated through the GUI.
+
+### Cross Product Visualization:
+![Cross Product](./CrossProduct.png)
+
+The image above illustrates the cross product of two vectors. The parallelogram formed by the vectors is highlighted, providing an intuitive view of the cross product's geometric interpretation.
+
 ## Requirements
 
 To build and run this project, you will need the following:
@@ -48,8 +58,8 @@ sudo apt-get install libglew-dev libglfw3-dev libglm-dev
 
 1. Clone this repository:
     ```bash
-    git clone <repository-url>
-    cd <repository-directory>
+    git clone https://github.com/mnshah0101/VectorVisualizationCpp
+    cd VectorVisualizationCpp
     ```
 
 2. Create a build directory and configure the project:
@@ -112,5 +122,4 @@ This project is licensed under the MIT License. Feel free to modify and distribu
 - GLEW for handling OpenGL extensions.
 - GLM for mathematics.
 - Dear ImGui for the user interface.
-
 
